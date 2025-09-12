@@ -62,12 +62,15 @@ Run the schema file inside src/main/resources/schema.sql.
 
 3️⃣ Update DB Credentials
 
+
 Edit DBConnection.java with your PostgreSQL username & password:
+```text
 
 private static final String URL = "jdbc:postgresql://localhost:5432/finance_tracker";
 private static final String USER = "postgres";
 private static final String PASSWORD = "your_password";
 
+```
 4️⃣ Build & Run
 mvn clean install
 mvn exec:java -Dexec.mainClass="Main"
