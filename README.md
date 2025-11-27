@@ -101,7 +101,7 @@ Example:
 0. Exit
 
 📸 Demo (Terminal Output)
-Welcome, Anya
+
 1. Add Income
 2. Add Expense
 3. View Balance
